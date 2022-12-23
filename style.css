@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
 }
 
-.container{
+.container {
     width: 100%;
     height: 100vh;
     background-color: #fff6c3;
@@ -15,58 +15,59 @@
     flex-direction: column;
 }
 
-.service{
+.service {
     width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 40px;
 }
-.title{
+
+.title {
     text-align: center;
     margin-bottom: 150px;
 }
 
-.title h1{
+.title h1 {
     font-weight: normal;
     font-size: 30px;
     color: #e62129;
 }
 
-.title h3{
+.title h3 {
     font-size: 40px;
 }
 
-.service-box{
+.service-box {
     width: 320px;
     padding: 30px 40px;
     background: linear-gradient(145deg, #e74c3c, #c0392b);
-    margin: 0 20px;
     text-align: center;
     border-radius: 5px;
     box-shadow: 6px 6px 12px #777777, -6px -6px 12px #fff6c3;
 }
 
-.service-image img{
+.service-image img {
     width: 90%;
     transition: .2s all ease-in-out;
 }
 
-.service-image{
+.service-image {
     margin-top: -150px;
     margin-bottom: 20px;
 }
 
-.service-box h3{
+.service-box h3 {
     font-size: 23px;
     color: #fff;
 }
 
-.service-box p{
+.service-box p {
     font-size: 18px;
     color: #fff;
     margin-top: 10px;
 }
 
-.service-box:hover img{
+.service-box:hover img {
     transform: scale(1.1);
 }
