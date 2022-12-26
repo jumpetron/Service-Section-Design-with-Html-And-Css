@@ -49,7 +49,7 @@
 
 .service-image img {
     width: 90%;
-    transition: .2s all ease-in-out;
+    transition: all .2s ease-in-out;
 }
 
 .service-image {
